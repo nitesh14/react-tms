@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.completed {
+  text-decoration: line-through;
+}
+.list-group-item {
+  padding: 3px 10px
+}
+.task{
+  float: right;
+}
+.taskrender {
+  margin-left: 20px;
+}
+#taskcheck{
+  margin-left: 2px;
+}
+h4 {
+  text-align: center;
+}
+#register {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
